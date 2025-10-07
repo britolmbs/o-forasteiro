@@ -30,7 +30,7 @@ public class User {
     private List<Haircut> haircuts;
 
     @OneToMany(mappedBy = "user")
-    private List<Serice> serices;
+    private List<Service> services;
 
     @OneToOne(mappedBy = "user")
     private Subscription subscription;
